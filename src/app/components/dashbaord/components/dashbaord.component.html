@@ -1,0 +1,161 @@
+<app-layout>
+  <app-dash-breadcom></app-dash-breadcom>
+<div class="dash_wrapper">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="scard">
+                <div>
+                    <h5>18</h5>
+                    <h6>Intents</h6>
+                </div>
+                <div>
+                    <h5>256</h5>
+                    <h6>Entities</h6>
+                </div>
+                <div>
+                    <h5>18</h5>
+                    <h6>Intents</h6>
+                </div>
+                <div>
+                    <h5>256</h5>
+                    <h6>Entities</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="scard-2">
+                <h6 class="title_text">Documents Status</h6>
+                <div class="itemline">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul class="nav list_b">
+                    <li class="nav-itemnot"><i class="fas fa-square-full e46766"></i><span>Unassigned</span></li>
+                    <li class="nav-itemnot"><i class="fas fa-square-full a6ac9a"></i><span>Assigned</span></li>
+                    <li class="nav-itemnot"><i class="fas fa-square-full c5df8f"></i><span>Tagged</span></li>
+                    <li class="nav-itemnot"><i class="fas fa-square-full c90c18d"></i><span>Trained</span></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+           <div class="card-3">
+            <table class="ctabel">
+                <thead>
+                    <tr>
+                        <th>Assignee</th>
+                        <th>Docs</th>
+                        <th>Sentences</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John.Doe</td>
+                        <td>6</td>
+                        <td>138</td>
+                    </tr>
+                    <tr>
+                        <td>John.Doe</td>
+                        <td>6</td>
+                        <td>138</td>
+                    </tr>
+                    <tr>
+                        <td>John.Doe</td>
+                        <td>6</td>
+                        <td>138</td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+
+        </div>
+    </div>
+    
+    <div class="row mt-5">
+        <ul class="nav bg_colorf">
+            <li class="nav-item">
+              <a class="nav-link active">Intents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" >Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container_custom">
+        <h6>Basic Information</h6>
+        <div class="Basic_Information"> 
+          <div class="bi6115">
+            <div class="bi6115_1">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Model Name</mat-label>
+                    <input matInput placeholder="Sample Model Name" value="Sample Model Name ">
+                </mat-form-field>
+            </div> 
+            <div class="bi6115_2">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Model Description</mat-label>
+                    <input matInput placeholder="Point of Sale data from Reliance Fresh, Hyderabad" value="Point of Sale data from Reliance Fresh, Hyderabad">
+                </mat-form-field>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container_custom mt-5">
+        <h6>Parameters</h6>
+        <div class="Basic_Parameters"> 
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-check c_check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Auto-suggest Convolutional Neural Network (CNN) Parameters
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-check c_check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Append Section Header
+                        </label>
+                    </div>
+                </div>
+            </div>
+          <div class="bi6115">
+               <div >
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Input Layer Dimension</mat-label>
+                    <input matInput placeholder="2000" value="200">
+                </mat-form-field>
+               </div>
+               <div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Validation to Train Ratio (%)</mat-label>
+                    <input matInput placeholder="48" value="48">
+                </mat-form-field>
+               </div>
+               <div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Miscellaneous Ratio (%)</mat-label>
+                    <input matInput placeholder="12" value="12">
+                </mat-form-field>
+               </div>
+               <div>
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Learning Rate</mat-label>
+                    <input matInput placeholder="36" value="36">
+                </mat-form-field>
+               </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+</app-layout>

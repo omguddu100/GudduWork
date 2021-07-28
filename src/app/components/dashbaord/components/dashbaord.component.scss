@@ -1,0 +1,133 @@
+.dash_wrapper {
+  margin: 20px;
+}
+.scard {
+  display: flex;
+}
+.scard > div {
+  width: 150px;
+  height: 100px;
+  justify-content: center;
+  padding: 7px;
+  background-color: #ffffff;
+  padding: 23px;
+  text-align: center;
+  border-right: 5px solid #f4f8fc;
+}
+.scard > div > h5 {
+  color: #47c1bf;
+  font-size: 32px;
+}
+.scard > div > h6 {
+  color: #000000 75%;
+  font-size: 14px;
+}
+//=======
+.scard-2 {
+  height: 100px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.title_text {
+  font-size: 14px;
+}
+.itemline {
+  display: flex;
+  padding-top: 8px;
+}
+.itemline > div {
+  width: 25%;
+  height: 20px !important;
+}
+.itemline > div:nth-child(1) {
+  background-color: #e46766;
+}
+.itemline > div:nth-child(2) {
+  background: #edbe72;
+}
+.itemline > div:nth-child(3) {
+  background: #c5df8f;
+}
+.itemline > div:nth-child(4) {
+  background: #90c18d;
+}
+.list_b {
+  padding-top: 5px;
+}
+.list_b > li > span {
+  font-size: 12px;
+}
+.list_b > li > i {
+  font-size: 12px;
+  margin-top: 4px;
+  padding-right: 3px;
+}
+.e46766 {
+  color: #e46766;
+}
+.a6ac9a {
+  color: #a6ac9a;
+}
+.c5df8f {
+  color: #c5df8f;
+}
+.c90c18d {
+  color: #90c18d;
+}
+
+.list_b > li {
+  width: 25%;
+  display: flex;
+}
+.card-3 {
+  background-color: #ffffff;
+  padding-left: 12px;
+  height: 100px;
+}
+.ctabel {
+  width: 100%;
+  font-size: 15px;
+}
+//============
+
+.bg_colorf {
+  background-color: #ffffff;
+  box-shadow: 1px 2px 1px 1px #ddd;
+}
+.bg_colorf > li > a {
+  color: rgba(0, 0, 0, 0.54);
+  text-transform: uppercase;
+}
+.active {
+  color: #464141 !important;
+  border-bottom: 2px solid #217df3;
+}
+.container_custom {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.Basic_Information {
+  background-color: #ffffff;
+  height: 100px;
+}
+.Basic_Parameters {
+  background-color: #ffffff;
+  height: 200px;
+}
+.bi6115 {
+  display: flex;
+  padding: 20px;
+}
+.bi6115 div {
+  height: 50px;
+  width: 100%;
+  margin-right: 45px;
+}
+.c_check {
+  margin-left: 18px;
+  padding-top: 8px;
+}
+.example-full-width {
+  width: 100%;
+}

@@ -1,0 +1,83 @@
+<app-layout>
+    <app-breadcrumb></app-breadcrumb>
+    <div class="com_wrapper">
+       <div class="comp_left">
+           <div class="flter_000"><h6>FILTER</h6></div>
+           <div class="project_000">
+               <h6>Project Name</h6>
+               <p>Business Contracts</p>
+        </div>
+       </div>
+       <div class="comp_right">
+        <div class="col-md-12 bg_colorf">
+            <div class="col-md-6">
+              <ul class="nav bg_colorf">
+                <li class="nav-item">
+                  <a class="nav-link" (click)="findList('Draft')"  [class.active]="addActive === 'Draft' " >Draft</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="findList('Assigned')"  [class.active]="addActive === 'Assigned' "  >Assigned</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  (click)="findList('Tagged')"   [class.active]="addActive === 'Tagged' ">Tagged</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  (click)="findList('Modelled')"  [class.active]="addActive === 'Modelled' ">Modelled</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  (click)="findList('Validated')"  [class.active]="addActive === 'Validated' ">Validated</a>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+
+        <div class="table_bg mt-3">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col"><input type="checkbox"/></th>
+                        <th scope="col">Document Type</th>
+                        <th scope="col">Language</th>
+                        <th scope="col">Domain</th>
+                        <th scope="col">Intents</th>
+                        <th scope="col">Entities</th>
+                        <th scope="col">Documents</th>
+                        <th scope="col">Assigned</th>
+                        <th scope="col">Tagged</th>
+                        <th scope="col">Trained</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr appRowhighlights *ngFor="let key of data | findlist: searchkey">
+                        <td><input type="checkbox"/></td>
+                        <td>{{key.DocumentType}}</td>
+                        <td>{{key.Language}}</td>
+                        <td>{{key.Domain}}</td>
+                        <td>{{key.Intents}}</td>
+                        <td>{{key.Entities}}</td>
+                        <td>{{key.Documents}}</td>
+                        <td>{{key.Assigned}}</td>
+                        <td>{{key.Tagged}}</td>
+                        <td>{{key.Trained}}</td>
+                        <td><button class="btn btn-custom">{{key.Status}}</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            
+          </div>
+
+
+          
+          
+        
+        
+          
+       </div>
+    </div>
+    
+    
+</app-layout>
